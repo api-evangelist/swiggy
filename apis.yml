@@ -1,8 +1,27 @@
 aid: swiggy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swiggy.png
 name: Swiggy
-description: 'Swiggy is a company surfaced as a portfolio company of accel, bessemer-venture-partners,
-  norwest-venture-partners, softbank-vision-fund and added to the API Evangelist network as a stub for
-  enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Swiggy is an Indian hyperlocal on-demand commerce and food-delivery
+  platform founded in 2014 and headquartered in Bengaluru. Through a single consumer
+  app it connects users with restaurant and merchant partners for food delivery,
+  Swiggy Instamart (quick grocery and essentials commerce), Swiggy Genie (pick-up
+  and drop errands), Swiggy Dineout (restaurant reservations and dining), and the
+  Swiggy One membership program, operating across hundreds of cities in India with
+  a large network of restaurant and delivery partners. Swiggy is a publicly listed
+  company backed by Accel, Bessemer Venture Partners, Norwest Venture Partners and
+  SoftBank Vision Fund. It exposes a login-gated merchant partner portal but does
+  not publish a public developer API program.'
 url: https://raw.githubusercontent.com/api-evangelist/swiggy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Food Delivery
+- Quick Commerce
+- Grocery Delivery
+- Logistics
+- E-commerce
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,5 +51,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/swiggy-domain-security.yml
 - type: Website
   url: http://www.swiggy.com
+- type: Blog
+  url: https://blog.swiggy.com
+- type: PrivacyPolicy
+  url: https://www.swiggy.com/privacy-policy
+- type: TermsOfService
+  url: https://www.swiggy.com/terms-and-conditions
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

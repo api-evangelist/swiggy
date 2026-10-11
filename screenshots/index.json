@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "swiggy",
+    "captured_at": "2026-10-11T193117",
+    "source_url": "http://www.swiggy.com",
+    "source_type": "Website",
+    "file": "swiggy-2026-10-11T193117.png",
+    "bytes": 20554,
+    "capture": "playwright-local"
+  }
+]

@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/swiggy/integrations
+- https://n8n.io/integrations/swiggy/
+- https://composio.dev/toolkits/swiggy
+- https://monid.ai/tools/swiggy
+checked:
+- https://composio.dev/toolkits/swiggy
+- https://monid.ai/tools/swiggy
+- https://n8n.io/integrations/swiggy/
+- https://zapier.com/apps/swiggy/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
